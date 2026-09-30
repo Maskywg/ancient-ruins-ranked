@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>五萬五千年的排行榜｜義大利極東古老遺跡排名</title>
+<meta name="theme-color" content="#6b4a1f">
+<meta name="description" content="義大利極東行程沿線最古老的七處遺跡，從舊石器洞穴到中世紀城堡，依年代排名，附照片與歷史故事">
+<meta property="og:type" content="website">
+<meta property="og:title" content="五萬五千年的排行榜——義大利極東古老遺跡排名">
+<meta property="og:description" content="從尼安德塔人的骨笛，到威尼斯式古城牆——這條行程路線上最古老的七處遺跡，依年代排名">
+<meta property="og:image" content="https://maskywg.github.io/ancient-ruins-ranked/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://maskywg.github.io/ancient-ruins-ranked/">
+<meta property="og:locale" content="zh_TW">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="五萬五千年的排行榜——義大利極東古老遺跡排名">
+<meta name="twitter:description" content="義大利極東行程沿線最古老的七處遺跡，依年代排名，附照片與歷史故事">
+<meta name="twitter:image" content="https://maskywg.github.io/ancient-ruins-ranked/og-image.jpg">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
+
+  :root {
+    --bg: #faf7f2;
+    --card: #ffffff;
+    --border: #e6ded2;
+    --text: #201a14;
+    --muted: #6b6055;
+    --hint: #a89a8a;
+    --amber: #6b4a1f;
+    --amber-light: #f2e8d5;
+    --teal: #1f4d5c;
+    --radius: 16px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body { font-family: 'Noto Sans TC', sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+
+  header {
+    background: linear-gradient(135deg, #2c1f0f, #6b4a1f);
+    color: #f5ecd8;
+    padding: 3.5rem 1.5rem 3rem;
+    text-align: center;
+  }
+  header .kicker { font-size: 0.75rem; letter-spacing: 0.15em; opacity: 0.75; margin-bottom: 0.8rem; }
+  header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.7rem, 5vw, 2.6rem);
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: 1rem;
+  }
+  header p.lede { max-width: 640px; margin: 0 auto; font-size: 0.92rem; line-height: 1.9; opacity: 0.85; font-weight: 300; }
+  .backlink {
+    display: inline-flex; align-items: center; gap: 6px; margin-top: 1.5rem;
+    font-size: 0.8rem; color: rgba(245,236,216,0.75); text-decoration: none;
+    border: 1px solid rgba(245,236,216,0.3); padding: 6px 16px; border-radius: 20px; transition: all 0.15s;
+  }
+  .backlink:hover { background: rgba(245,236,216,0.1); color: #f5ecd8; }
+
+  main { max-width: 780px; margin: 0 auto; padding: 3rem 1.5rem 4rem; }
+
+  .intro-note {
+    background: var(--card); border: 1px solid var(--border); border-left: 3px solid var(--amber);
+    border-radius: 0 12px 12px 0; padding: 1rem 1.3rem; font-size: 0.85rem; color: var(--muted);
+    line-height: 1.9; margin-bottom: 3rem;
+  }
+
+  .rank-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+    overflow: hidden; margin-bottom: 2.4rem; position: relative;
+  }
+
+  .rank-photo-wrap { position: relative; }
+  .rank-photo { width: 100%; height: 320px; object-fit: cover; display: block; }
+  .rank-number {
+    position: absolute; top: 16px; left: 16px;
+    font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 700;
+    color: #fff; text-shadow: 0 2px 12px rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.35); backdrop-filter: blur(2px);
+    width: 56px; height: 56px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .rank-age-badge {
+    position: absolute; bottom: 16px; right: 16px;
+    background: rgba(0,0,0,0.55); color: #f5ecd8; backdrop-filter: blur(2px);
+    padding: 6px 14px; border-radius: 20px; font-size: 0.8rem; font-weight: 500;
+  }
+
+  .rank-body { padding: 1.4rem 1.6rem 1.6rem; }
+  .rank-name { font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 700; margin-bottom: 3px; }
+  .rank-subtitle { font-size: 0.8rem; color: var(--hint); margin-bottom: 10px; }
+  .rank-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+  .rank-tag {
+    font-size: 0.68rem; background: var(--amber-light); color: var(--amber);
+    padding: 3px 10px; border-radius: 10px; font-weight: 500;
+  }
+  .rank-story { font-size: 0.87rem; color: var(--muted); line-height: 1.9; }
+  .rank-story b { color: var(--text); }
+
+  footer {
+    text-align: center; padding: 2.5rem 1.5rem; font-size: 0.72rem; color: var(--hint);
+    border-top: 1px solid var(--border); line-height: 2;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="kicker">MOVING LECTURE · ANCIENT RANKING</div>
+  <h1>五萬五千年的排行榜</h1>
+  <p class="lede">從尼安德塔人在洞穴裡刻下的第一支骨笛，到威尼斯人在海角上砌起的最後一道城牆——這條行程路線疊著人類在此定居的整部歷史。這是「義大利極東・移動講堂」的支線研究，把沿線最古老的七處遺跡依年代排名，一路從史前走到近代。</p>
+  <a class="backlink" href="https://maskywg.github.io/friuli-far-east/" target="_blank" rel="noopener noreferrer">← 回主行程網頁</a>
+</header>
+
+<main>
+
+  <div class="intro-note">
+    💡 排名依「遺跡本身或其核心遺存的年代」由古至今排列，不是依觀光熱門度——所以你會看到一座沒什麼遊客知道的洞穴，排在比城堡還前面的位置。年代標示取最具代表性的斷代（例如建築本體與其核心裝飾／遺存若年代不同，會分別說明）。
+  </div>
+
+  <div class="rank-card">
+    <div class="rank-photo-wrap">
+      <img class="rank-photo" src="img/divjebabe.jpg" alt="迪夫耶貝貝洞穴入口">
+      <div class="rank-number">1</div>
+      <div class="rank-age-badge">約 5.5–6 萬年前</div>
+    </div>
+    <div class="rank-body">
+      <div class="rank-name">迪夫耶貝貝洞穴 Divje Babe</div>
+      <div class="rank-subtitle">斯洛維尼亞・切爾克諾山區 · 舊石器時代中期</div>
+      <div class="rank-tags"><span class="rank-tag">🦴 尼安德塔人骨笛</span><span class="rank-tag">人類已知最古老樂器候選</span></div>
+      <p class="rank-story">1995 年，考古學家在這座石灰岩洞穴裡挖出一根穿有規律孔洞的洞熊股骨——後來被稱為「迪夫耶貝貝骨笛」，是尼安德塔人留下的遺物，年代測定約五萬五千年前，比任何智人樂器都早了數萬年。它究竟是刻意鑽孔的樂器，還是掠食動物咬穿的骨頭，學界至今仍有爭論，但多數研究支持前者——如果屬實，這代表尼安德塔人早在智人之前，就已經擁有音階與音樂的概念。<b>洞穴本身仍是活躍的考古發掘現場</b>，鐵柵欄後仍持續進行研究工作。</p>
+    </div>
+  </div>
+
+  <div class="rank-card">
+    <div class="rank-photo-wrap">
+      <img class="rank-photo" src="img/trieste_theatre.jpg" alt="特里埃斯特羅馬劇場遺跡">
+      <div class="rank-number">2</div>
+      <div class="rank-age-badge">1 世紀</div>
+    </div>
+    <div class="rank-body">
+      <div class="rank-name">特里埃斯特羅馬劇場</div>
+      <div class="rank-subtitle">義大利・特里埃斯特 · 主行程 Day 8–9</div>
+      <div class="rank-tags"><span class="rank-tag">🏛 羅馬帝國</span><span class="rank-tag">可容納約 6,000 人</span></div>
+      <p class="rank-story">羅馬帝國時代的「特爾格斯特（Tergeste）」在此建了一座可容納約六千觀眾的半圓形劇場，緊貼著聖朱斯托山腳、面向海灣——選址本身就是精心設計，觀眾席後方直接借景亞德里亞海。這座劇場長期被中世紀後蓋起的民房完全掩埋，直到 1938 年法西斯時期的都市更新計畫才重新出土，如今就靜靜躺在特里埃斯特舊城的市中心，走幾步路就能從熱鬧街道踏入兩千年前的看台。</p>
+    </div>
+  </div>
+
+  <div class="rank-card">
+    <div class="rank-photo-wrap">
+      <img class="rank-photo" src="img/aquileia_mosaic.jpg" alt="阿奎萊亞主教堂善牧馬賽克地坪">
+      <div class="rank-number">3</div>
+      <div class="rank-age-badge">城市 前181年・地坪 4世紀初</div>
+    </div>
+    <div class="rank-body">
+      <div class="rank-name">阿奎萊亞主教堂馬賽克地坪</div>
+      <div class="rank-subtitle">義大利・阿奎萊亞 · 主行程 Day 4</div>
+      <div class="rank-tags"><span class="rank-tag">🏛 UNESCO 世界遺產</span><span class="rank-tag">西方最大早期基督教地坪</span></div>
+      <p class="rank-story">阿奎萊亞建城於西元前 181 年，鼎盛時期是羅馬帝國第四大城，人口逼近十萬。主教堂地底鋪著的馬賽克地坪完成於西元四世紀初（313–320 年，主教特奧多雷任內），面積達 760 平方公尺，是西方世界現存最大片的早期基督教馬賽克地坪。畫面裡的「善牧」（Good Shepherd）——一位肩扛綿羊的牧人——是基督教藝術裡最早、最經典的圖像原型之一，走在教堂玻璃地板上往下看，等於直接踩在一千七百年前信徒留下的信仰宣言上。</p>
+    </div>
+  </div>
+
+  <div class="rank-card">
+    <div class="rank-photo-wrap">
+      <img class="rank-photo" src="img/porec_apse.jpg" alt="波雷奇歐福拉西烏斯主教座堂後殿金色馬賽克">
+      <div class="rank-number">4</div>
+      <div class="rank-age-badge">6 世紀（532–543年）</div>
+    </div>
+    <div class="rank-body">
+      <div class="rank-name">歐福拉西烏斯主教座堂</div>
+      <div class="rank-subtitle">克羅埃西亞・波雷奇 · 主行程 Day 10</div>
+      <div class="rank-tags"><span class="rank-tag">🏛 UNESCO 世界遺產</span><span class="rank-tag">拜占庭金色馬賽克</span></div>
+      <p class="rank-story">由主教歐福拉西烏斯於六世紀中葉主持興建，後殿的金底馬賽克描繪聖母子與殉道聖徒，工藝細膩程度僅次於拉溫納與伊斯坦堡的拜占庭傑作——在羅馬帝國西部已然崩解、東羅馬（拜占庭）勢力短暫重返亞德里亞海岸的年代，這裡留下了那個轉瞬即逝時代最華麗的證據。整組建築群（主教座堂、洗禮堂、主教宮）保存完整度在地中海地區數一數二，1997 年列入 UNESCO 世界遺產。</p>
+    </div>
+  </div>
+
+  <div class="rank-card">
+    <div class="rank-photo-wrap">
+      <img class="rank-photo" src="img/bled_castle.jpg" alt="布萊德城堡懸崖">
+      <div class="rank-number">5</div>
+      <div class="rank-age-badge">首見文獻 1011 年</div>
+    </div>
+    <div class="rank-body">
+      <div class="rank-name">布萊德城堡</div>
+      <div class="rank-subtitle">斯洛維尼亞・布萊德 · 主行程 Day 7</div>
+      <div class="rank-tags"><span class="rank-tag">🏰 斯洛維尼亞現存最古老城堡</span></div>
+      <p class="rank-story">1011 年，神聖羅馬帝國皇帝亨利二世將布萊德一帶的土地賞賜給布里克森主教，這是布萊德城堡首次出現在歷史文獻中——距今已超過一千年，是斯洛維尼亞現存最古老的城堡。城堡盤踞在垂直懸崖頂端，俯瞰整片布萊德湖與湖心小島，這個居高臨下的位置從中世紀起就同時是防禦要塞，也是眺望阿爾卑斯山雪峰最好的觀景台。</p>
+    </div>
+  </div>
+
+  <div class="rank-card">
+    <div class="rank-photo-wrap">
+      <img class="rank-photo" src="img/predjama.jpg" alt="普列加馬洞穴堡內部岩洞">
+      <div class="rank-number">6</div>
+      <div class="rank-age-badge">首見文獻 1274年・現貌 16世紀</div>
+    </div>
+    <div class="rank-body">
+      <div class="rank-name">普列加馬洞穴堡</div>
+      <div class="rank-subtitle">斯洛維尼亞・普列加馬 · 主行程 Day 8</div>
+      <div class="rank-tags"><span class="rank-tag">🏰 世界最大洞穴城堡</span></div>
+      <p class="rank-story">城堡最早文獻紀錄可追溯至 1274 年，現存的哥德－文藝復興混合式建築體則是 16 世紀重建的結果。整座城堡嵌進 123 公尺高的岩壁洞口，背後連通一整套天然洞穴系統——15 世紀城主埃拉澤姆正是靠這套洞穴通道，在被圍城將近一年的情況下，仍能源源不絕運補新鮮食物，把圍城軍隊耍得團團轉。走進城堡深處，會直接踏入這套仍在向山體延伸的天然岩洞。</p>
+    </div>
+  </div>
+
+  <div class="rank-card">
+    <div class="rank-photo-wrap">
+      <img class="rank-photo" src="img/piran.jpg" alt="皮蘭古城空拍">
+      <div class="rank-number">7</div>
+      <div class="rank-age-badge">城牆 15–17世紀</div>
+    </div>
+    <div class="rank-body">
+      <div class="rank-name">皮蘭古城與城牆</div>
+      <div class="rank-subtitle">斯洛維尼亞・皮蘭 · 主行程 Day 11</div>
+      <div class="rank-tags"><span class="rank-tag">🏛 威尼斯式古城</span></div>
+      <p class="rank-story">皮蘭的聚落史可追溯至羅馬時代的「皮拉農（Pyrrhanum）」，但今日所見層層堆疊的威尼斯式建築與環繞舊城的防禦城牆，主要成形於 15 到 17 世紀威尼斯共和國統治時期。半島形的舊城三面環海，狹窄巷弄與鐘樓幾乎是縮小版的威尼斯本尊——站上城牆制高點回望，能一眼看盡整座古城如何被海洋與城牆同時圈住、同時保護了七百年。</p>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  照片來源：Wikimedia Commons，依序為迪夫耶貝貝洞穴（Thilo Parg，CC BY-SA 3.0）、特里埃斯特羅馬劇場（Kritzolina，CC BY-SA 4.0）、阿奎萊亞善牧馬賽克（公有領域）、波雷奇歐福拉西烏斯主教座堂後殿（Dguendel，CC BY 3.0）、布萊德城堡（amanderson2，CC BY 2.0）、普列加馬洞穴堡（Beyond silence，公有領域）、皮蘭古城（Jakub Hałun，CC BY 4.0）<br>
+  本頁為「義大利極東・移動講堂」的支線研究頁面 · <a href="https://maskywg.github.io/friuli-far-east/" target="_blank" rel="noopener noreferrer" style="color:var(--amber)">回主行程網頁</a>
+</footer>
+
+</body>
+</html>
